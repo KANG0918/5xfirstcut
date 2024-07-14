@@ -32,8 +32,30 @@
     background: rgb(243 244 246) ;
     padding: 10px;
 }
-
-
+/* ----- us start ----- */
+body{
+    position: relative;
+}
+.cont-us{
+    width: 74px;
+    height: 20px;
+    background-color: rgb(255 19 62);
+    border: 1px solid rgb(252 165 165);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    display: inline-block;
+    bottom: 50px;
+    right: 30px;
+    position: fixed;
+    z-index: 2;
+}
+.cont-us a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+/* ----- us end ----- */
 
 /* ----- header start ----- */
 header{
@@ -430,17 +452,22 @@ header{
 /* ----- article end ----- */
 
 /* ----- bis start ----- */
+.bis-title-area{
+    margin-bottom: 50px;
+}
 .bis-title{
     color: white;
 }
 
 .bg-blue{
-    height: 1000px;
-    background-color:black;
+    height: 607px;
+    background-color:rgb(41 48 62);
+    font-size: 0;
 }
 
 .bis-card-area{
     height: 469px;
+    row-gap: 15px;
 }
 
 .bis-cards{
@@ -448,12 +475,61 @@ header{
     height: 469px;
     background: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 .bis-img img{
     height: 243px;
     width: 100%;
 }
 
+.bis-text h3{
+    font-size: 24px;
+    margin: 16px 0 16px 16px;
+}
+
+.bis-edit{
+    font-size: 16px;
+    margin: 0 16px;
+    line-height: 2;
+}
+.bis-day{
+    margin: 16px 16px 16px 0;
+    text-align: right;
+}
+.bis-day button{
+    border: transparent;
+    background: white;
+    font-size: 16px;
+    height: 24px;
+    color: #ff133e;
+    cursor: pointer;
+}
+/* ----- bis end ----- */
+
+/* ----- draw start ----- */
+.trin1{
+    font-size: 0px;
+    padding: 0;
+    width: 100%;
+    height: 160px;
+}
+.blue-trin1{
+    font-size: 0px;
+    padding: 0;
+    width: 100%;
+    height: 160px;
+    background-color: rgb(41 48 62);
+    clip-path: polygon(79% 0, 100% 60%, 100% 100%, 0 100%, 0 60%);
+}
+.blue-trin2{
+    font-size: 0px;
+    padding: 0;
+    width: 100%;
+    height: 160px;
+    background-color:rgb(41 48 62);
+    clip-path: polygon(0 0, 100% 0, 100% 40%, 21% 95%, 0 40%);
+}
+/* ----- draw end ----- */
 
 /* ----- footer start ----- */
 footer{
