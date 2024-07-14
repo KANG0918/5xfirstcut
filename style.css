@@ -176,6 +176,7 @@ header{
     background-color: white;
     box-shadow: 2px 2px 3px rgba(0,0,0,.3);
     position: relative;
+    cursor: pointer;
 }
 
 .typeof-class{
@@ -379,8 +380,6 @@ header{
     height: 144px;
     border-radius: 5px;
     overflow: hidden;
-    
-
 }
 
 .article-img img{
@@ -430,13 +429,85 @@ header{
 }
 /* ----- article end ----- */
 
+/* ----- bis start ----- */
+.bis-title{
+    color: white;
+}
+
+.bg-blue{
+    height: 1000px;
+    background-color:black;
+}
+
+.bis-card-area{
+    height: 469px;
+}
+
+.bis-cards{
+    width: calc((100% - 15px)/2);
+    height: 469px;
+    background: white;
+    border-radius: 5px;
+}
+.bis-img img{
+    height: 243px;
+    width: 100%;
+}
+
+
+/* ----- footer start ----- */
 footer{
     height: 340px;
-    width: 100%;   
+    width: 100%;
+  
 }
 .footer-about{
-    height: 255px;
+    height: 143px;
     background: rgb(41 48 62);
+    padding: 56px 8px;
+    
+}
+.footer-about-container{
+    width: 1200px;
+    margin: auto;
+}
+
+
+
+.footer-about-container img{
+    width: 186px;
+    height: 36px;
+    
+}
+.connection-5x{
+    margin-top: 28px;
+
+}
+
+.connection-inf-li{
+    color: white;
+    font-size: 16px;
+}
+.connection-inf-li li{
+    height: 24px;
+}
+.connection-inf-li-a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.connection-inf{
+    width: 362px;
+    height: 72px;
+
+}
+
+.connection-nav{
+    width: 496px;
+    height: 72px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -447,6 +518,10 @@ footer{
     font-size: 16px;
     flex-direction: column;
     justify-content: center;
+}
+.connection-inf-nav-li{
+    width: 496px;
+    justify-content: space-between;
 }
 
 .footer-int-a{
