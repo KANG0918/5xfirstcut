@@ -58,11 +58,24 @@ body{
 /* ----- us end ----- */
 
 /* ----- header start ----- */
+.header-conta{
+    height: 64px;
+    width: 100%;
+
+}
 header{
     width: 100%;
     height: 64px;
     flex-direction: row;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    z-index: 3;
     
+}
+.headertop{
+    height: 64px;
 }
 
 
